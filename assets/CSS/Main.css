@@ -1,0 +1,85 @@
+main{
+    font-family: 'Poppins', sans-serif;  
+}
+#gif_1{
+width: 612.39px;
+height: 731px;
+margin-top: 120px;
+margin-left: -174px;
+}
+
+#Hi{
+    position: absolute;
+    width: 372.93px;
+    height: 210px;
+ 
+    top: 270px;
+    margin-left: -8px; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 99.569px;
+    line-height: 102.5%;  
+    display: flex;
+    align-items: center;     
+    color: #333333;       
+}
+#About_me{
+position: absolute;      
+top: 490px;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+}
+#small__project,#large__project{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+cursor: pointer;
+width: 160px;
+height: 60px;
+top: 620px;
+background-color:#FFFFFF;
+border: 1px solid #333333;
+
+z-index: 20;
+}
+#large__project{
+    left: 4px;
+}
+#small__project:hover{
+    color:#FFFFFF;
+    transition: 0.7s;
+    background: #3D37CD; 
+    z-index: 20;  
+    border:0px;
+}
+#large__project:hover{
+    color:#FFFFFF;
+    transition: 0.7s;
+    background: #00C753;
+    z-index: 20;
+    border:0px;
+}
+#large__project{
+    margin-left: 200px;
+}
+#gif_2{
+    position: absolute;
+    top: -87px; 
+    right: 0px;
+    width: 230px;
+    height: 690px;
+    margin-right: -150px;  
+    z-index: 20;     
+}
+
+@media (min-height:960px){
+    #gif_1{
+        width: 612.39px;
+        height: 728px;
+        margin-top: 155px;
+        margin-left: -174px;        
+        }
+}

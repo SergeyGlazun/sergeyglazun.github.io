@@ -1,0 +1,80 @@
+
+header{
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    position:relative;
+    z-index: 20; 
+    height:86px;
+    width:250px;
+    background-color:#FFFFFF;   
+}
+
+.burger__button{
+    display: none;
+} 
+.header__burger{
+    display: none;
+
+}
+#logo{
+    margin-top: 28px;
+    z-index: 200;
+    cursor: pointer;
+}
+#logo_1{ 
+    
+    fill: #333333;
+}
+#logo_1:hover {
+    fill: #FE0000;
+}
+
+#headerLine,.lineSmalProdject{ 
+    border-width: 1px;
+    background-color:#333333;
+    width: 823px;   
+   
+}
+
+
+#About,#Contact{
+    position: absolute;
+    width: 175px;
+    height: 86px;  
+    background-color:#FFFFFF;         
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 20;
+}
+#About{ 
+    margin-left: 584px;
+}
+#Contact{ 
+    margin-left: 758px;
+}
+#About:hover{
+    background: #FFBD00;
+    color:#FFFFFF;
+    transition: 0.7s;   
+}
+#Contact:hover{
+    background: #FE0000;
+    color:#FFFFFF;
+    transition: 0.7s;     
+}
+
+.burger__button{
+    display: none;
+}
+
+@media (max-width:767px){
+    
+  
+    #headerLine,#gif_2{
+        display: none;
+    }
+  
+}
+

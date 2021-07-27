@@ -1,0 +1,461 @@
+.pade_3{  
+    margin-top: -111px; 
+    /* display: none;  */
+    }
+    #mosaic_mobile_p3{
+        display: none;
+    }
+#touch,.mosaic{
+    opacity: 0;
+}
+#touch{
+    position: absolute;
+    width: 293px;
+    height: 196px;
+    left: 260px;
+
+    top:220px;
+
+    left: 13px;
+
+    font-family:  'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 99.569px;
+    line-height: 102px;
+    
+    color: #333333;
+}
+
+.mosaic{
+    position: absolute;    
+    margin-top: 550px;
+    left: -65px;
+}
+
+#mosaic_10{
+    margin-left:193px;   
+}
+
+#mosaic_2{
+   
+    margin-left: 164px;
+}
+#mosaic_1,#mosaic_5{    
+    margin-left: 80px;
+    z-index: 2;
+}
+#mosaic_3{
+    
+    margin-left: 193px;
+}
+#mosaic_4{
+    margin-left: 278px;
+}
+#mosaic_5{
+    margin-left: 80px;
+}
+#mosaic_6{
+    margin-left: 136px;
+}
+#mosaic_7{
+    margin-left: 192px;
+}
+#mosaic_8{
+    margin-left: 278px;
+}
+#mosaic_9{
+    margin-left: 80px;
+}
+#mosaic_11{
+    margin-left: 81px;
+    z-index: 2;
+}
+#mosaic_12{
+    margin-left: 81px;
+   
+}
+#mosaic_13{
+    margin-left: 193px;  
+}
+#mosaic_14{
+    margin-left: 250px;   
+}
+
+#roof,#mail,#phone,#linked,#twit{
+position: absolute;
+width: 445px;
+border-width: 1px;
+background-color:#333333;
+opacity: 0;  
+
+}
+#roof{
+  
+    top: 240px;
+}
+#mail{
+   
+    top: 300px;
+}
+#phone{
+    
+    top: 360px; 
+}
+#linked{
+   
+    top: 420px; 
+}
+#twit{
+   
+    top: 480px; 
+}
+
+#contact_mail,#contact_phone,#contact_linked,#contact_twiter{
+    opacity: 0;
+    
+}
+
+#contact_mail{
+position: absolute;
+width: 24px;
+height: 18px;
+z-index: 10px;
+}
+#contact_mail{
+
+top: 278px;
+margin-left:18px;
+}
+#contact_phone{
+position: absolute;
+left: 46.11%;
+right: 52.83%;
+bottom: 46.4%;
+width: 15px;
+height: 24px;
+
+top: 335px;
+margin-left:-181px;
+}
+#contact_linked{
+    position: absolute;
+    left: 45.9%;
+    right: 52.57%;
+  
+    bottom: 39.89%;    
+    border-radius: 0px;
+}
+#contact_linked{
+ 
+    top: 394px;
+    margin-left: -189px;
+}
+#contact_twiter{
+    position: absolute;
+    left: 45.9%;
+    right: 52.57%;
+  
+    bottom: 33.33%;   
+    border-radius: 0px;
+    width:22px;
+    
+}
+#contact_twiter{
+  
+    top: 453px;
+    margin-left: -189px;
+}
+#link1,#link2,#link3,#link4{
+    position: absolute;
+    width: 350px;
+    height: 60px;   
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    opacity: 0;     
+    color: #333333;
+    visibility:hidden;
+}
+#link1{
+ 
+    top: 268px; 
+    margin-top: -23px;
+    margin-left:94px;
+}
+#link2{
+   
+    top: 329px;
+    margin-top: -23px;   
+    margin-left:94px;
+}
+#link3{
+
+    top: 388px; 
+    margin-top: -23px;  
+    margin-left:94px;
+}
+#link4{
+
+    top: 448px;  
+    margin-top: -23px; 
+    margin-left:94px;
+}
+#link_1{
+    font-weight: 300;
+    margin-top: 53px;  
+    margin-left:-74px;
+}
+#link_2{
+    font-weight: 300;
+    margin-top: 53px;
+    margin-left:-63px;
+}
+
+#link_3{
+    font-weight: 300;
+    margin-top: 53px;
+    margin-left:-136px;
+}
+#link_4{
+    font-weight: 300;
+    margin-top: 53px;
+    margin-left:-80px;
+}
+
+    #contact_mail,#contact_phone,#contact_linked,#contact_twiter{      
+        fill: #333333;
+    }
+
+   
+    #contact_mail:hover {
+        fill: #28C65C;
+    }
+
+    a{
+    color: #333333;
+    text-decoration: underline;   
+    } 
+
+    #contact_phone :hover {
+        fill: #FFBC00;
+    }
+
+    #contact_linked:hover {
+        fill: #FF0000;
+    }
+
+    #contact_twiter:hover{
+        fill: #3D37CD;
+    }
+
+   
+ /* ////////////////////////////////////// */
+
+
+    #link_1:hover{
+        color: #28C65C;
+    }
+    #link_2:hover{
+        color: #FFBC00;
+    }
+
+    a:hover{
+        color: #FF0000;
+    }
+
+    #contact_mail:hover + #link1>#link_1{
+        color: #28C65C;
+    }
+    #contact_phone:hover + #link2>#link_2{
+        color: #FFBC00;
+    }
+
+
+
+
+
+    @media (max-width: 414px){
+       
+        #touch{
+            position: absolute;
+            width: 345px;
+            height: 157px;
+            left: 15px;
+            top: 122px;
+                    
+            font-style: normal;
+            font-weight: 500;
+            font-size: 80px;
+            line-height: 102.5%;                  
+            color: #333333;
+        }
+        .mosaic{
+            display: none;
+        }
+        #mosaic_mobile_p3{
+            display:block;
+        }
+        #roof, #mail,#phone,#linked,#twit{
+            width:345px;
+           
+        }
+            #roof{
+              
+                top: 300px;
+                
+            }
+            #mail{
+               
+                top: 360px;
+            }
+            #phone{
+                
+                top: 420px; 
+            }
+            #linked{
+               
+                top: 480px; 
+            }
+            #twit{
+               
+                top: 540px; 
+            }
+       
+            .cont_1,.cont_2,.cont_3,.cont_4{              
+                margin-left:-140px;                                          
+            }
+            #contact_mail{
+            position: absolute;
+            width: 24px;
+            height: 18px;
+        
+            z-index: 10px;
+            }
+            #contact_mail{            
+            top: 339px;
+          
+            }
+
+            #contact_phone{              
+            position: absolute;                 
+            width: 15px;
+            height: 24px;           
+            top: 395px; 
+            position:relative;         
+            left:-1400px;
+          
+            }
+
+            #contact_linked{
+                position: absolute;
+                left: 45.9%;
+                right: 52.57%;
+              
+                bottom: 39.89%;    
+                border-radius: 0px;
+            }
+            #contact_linked{
+             
+                top: 453px;
+                margin-left: -189px;
+            }
+            #contact_twiter{
+                position: absolute;
+                left: 45.9%;
+                right: 52.57%;
+              
+                bottom: 33.33%;   
+                border-radius: 0px;
+                width:22px;
+                
+            }
+            #contact_twiter{
+              
+                top: 519px;
+                margin-left: -189px;
+            }
+     
+            #link1{
+             
+                top: 325px; 
+                margin-top: -23px;
+                margin-left:94px;
+            }
+            #link2{
+               
+                top: 386px;
+                margin-top: -23px;   
+                margin-left:94px;
+            }
+            #link3{
+            
+                top: 445px; 
+                margin-top: -23px;  
+                margin-left:94px;
+            }
+            #link4{
+         
+                top: 505px;  
+                margin-top: -23px; 
+                margin-left:94px;
+                z-index: 1000;
+            }
+
+            #link_1{
+                font-weight: 300;
+                margin-top: 53px;  
+                margin-left:0px;
+            }
+            #link_2{
+                font-weight: 300;
+                margin-top: 53px;
+                left:130px;
+            }
+        
+            #link_3{
+                font-weight: 300;
+                margin-top: 28px;
+                left:244px;
+            }
+            #link_4{
+                font-weight: 300;
+                margin-top: 27px;
+                left:160px;
+             }
+       
+            #mosaic_1_mobile{        
+            left: 0px;
+            /* left:-3%; */
+            bottom: 0px;
+            }
+            #mosaic_2_mobile{
+                left: 85px;
+                /* left:4%; */
+                bottom: 0px; 
+                z-index: -1;
+            }
+            #mosaic_3_mobile{
+                left: 114px;
+                /* left:16%; */
+                bottom: 0px;
+            }
+            #mosaic_4_mobile{
+                left: 200px;
+                /* left:35%; */
+                bottom: 0px;             
+            }
+            .mosaic_mobile{
+                visibility: hidden;
+             position:fixed;
+             /* width:26%; */
+             /* height: 14%; */
+            }
+    }
+
+
+

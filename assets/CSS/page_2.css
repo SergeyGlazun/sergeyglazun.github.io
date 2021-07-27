@@ -1,0 +1,200 @@
+.pade_2{
+margin-top: -850px;
+}
+
+#gif_3{
+position: absolute;
+width: 315px;
+height: 317px;
+margin-top: 378px;
+margin-left: -15px;
+ }
+ 
+ .about_me_p2{
+ position: absolute;
+ width: 372.93px;
+ height: 210px;
+ top:279px;
+
+ font-family: 'Poppins', sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 104px;
+ line-height: 102px;
+ display: flex;
+ align-items: center;
+ color: #333333;
+ 
+ z-index: 2;
+ }
+ 
+ #foto{
+position: absolute;
+width: 285px;
+height: 285px;
+top: 170px;
+
+ }
+ 
+ .about_meIfo_p2{
+position: absolute;
+width: 475px;
+height: 221px;
+
+top: 460px;
+
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 24px;
+margin-left: -25px;
+color: #333333;
+margin-left: -30px;
+ }
+ 
+ #gif_4{
+    width: 103.43px;
+    height: 104.07px;
+    margin-left: -35px;
+    margin-top: 61px;
+ }
+ 
+ #back_Home{
+   /* position: absolute;
+   width: 25px;
+   height: 25px;
+   margin-left: 200px; 
+   margin-top: -55px;
+   cursor: pointer;
+   z-index: 20; */
+   display: none;
+ }
+ 
+ .about_me_p2,#gif_3,#foto,.about_meIfo_p2,#gif_4,#back_Home{
+    opacity: 0;  
+ }
+
+ @media (max-width:767px){
+ 
+   .about_me_p2{
+      position: absolute;
+      width: 345px;
+      height: 157px;
+      left: 15px;
+      top: 122px;
+
+      font-style: normal;
+      font-weight: 500;
+      font-size: 80px;
+      line-height: 102.5%;
+   
+      color: #333333;
+   }
+
+   #back_Home{
+      display: none;
+   }
+
+   #foto{
+position: absolute;
+width: 173px;
+height: 173px;
+left: 87px;
+top: 545px;
+
+background: #333333;
+border-radius: 126.607px;
+       }
+       #gif_3{
+         width: 205.69px;
+         height: 207px;
+         left: -9px;
+         top: 214px;;
+          }
+
+          .about_meIfo_p2{
+            position: absolute;
+            width: 345px;
+            height: 248px;
+            margin-left:5px;
+            top: 293px;
+
+
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 22px;
+
+            color: #333333;
+            
+             }
+             #gif_4{
+               position: absolute;
+width: 80.57px;
+height: 81.07px;
+left: 283px;
+top: 169px;
+            }
+}
+
+@media (max-width: 414px){
+   .pade_2{     
+      margin-top: 84px;      
+      opacity: 1;
+      visibility :visible;
+      z-index: -100;
+      }
+   .about_me_p2{
+      position: absolute;
+      width: 345px;
+      height: 157px;
+      left: 15px;
+      top: 50px;
+      
+      font-style: normal;
+      font-weight: 500;
+      font-size: 80px;
+      line-height: 102.5%;
+       
+      color: #333333;
+   }
+   .about_meIfo_p2{
+      position: absolute;
+      width: 345px;
+      height: 248px;
+      margin-left: -445px;
+      top: 213px;
+
+      font-style: normal;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 22px;
+      color: #333333;
+   }
+   #foto{
+      position: absolute;
+      width: 173px;
+      height: 173px;
+      left: -350px;
+      top: 455px;
+      background: #333333;
+   }
+   #gif_3{
+      position: absolute;
+      width: 205px;
+      height: 207px;
+      left: 10px;
+      top: 150px
+   }
+   #gif_4{
+   position: absolute;
+   width: 80.57px;
+   height: 81.07px;
+   margin-left: -190px;
+   top: 30px;
+ 
+   }
+
+}
+

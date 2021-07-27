@@ -1,0 +1,793 @@
+.header__burger{
+    display: none;
+}
+
+@media (max-width: 441px){
+    
+    #logo{
+        position: fixed;
+        left: 0px;
+       }
+    body{
+        overflow: hidden;
+    }
+   a{
+       visibility: hidden;
+   }
+    *{       
+        font-size: 13px; 
+        position: fixed; 
+     }
+  
+     #logo_1:hover {
+        fill: #FE0000;
+    }
+    header{
+        position: fixed; 
+        left: 0px; 
+    } 
+  
+  
+    #gif_1{
+        margin-top: 190px;
+        width: 411px;
+       
+    }
+    .pade_2{
+        margin-top: 82px;
+        left: 0px;
+        z-index: -100;
+        }
+    #foto{
+        top:450px;
+        position: absolute;
+        width: 170px;
+        height: 170px;     
+    }
+    #gif_3{     
+        bottom:0px;
+        width: 120px;
+        height: 120px;
+    }
+ .page_5,.page_6{
+     top: 85px;
+     z-index: -1000;
+ }
+ #gif_2{
+    display: none;
+  
+}
+#link1,#link2,#link3,#link4{
+    visibility: hidden;
+
+}
+#link_4{
+    visibility: hidden;
+}
+
+}
+
+
+@media (max-width: 414px)  {
+  
+  #Hi{
+        position: fixed;    
+        width: 355px;
+        
+        height: 70px;
+        left: 20px;
+        top: 150px;
+     
+        font-style: normal;
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 102.5%;
+
+        color: #333333;      
+    }
+
+        #About_me{
+        position: fixed;  
+        width: 360px;
+        height: 47px;
+        left: 20px;
+        top: 273px;
+
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+
+        color: #333333;
+        }
+
+#small__project,#large__project{
+    position: absolute;
+    width: 158px;  
+    height: 59.25px;  
+    top: 375px;
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    background-color:#FFFFFF; 
+    z-index: 200; 
+    }
+
+    #small__project{
+        left:5px;
+    }
+ 
+    #large__project{
+    position: fixed;  
+    position: relative;
+    width: 157px;
+    height: 58.88px;
+    margin-left: 150px;
+       
+    }
+    #gif_1{
+       top: 270px;
+       width: 440;
+       height: 414px;
+       left: 175px;
+    }
+    #logo,#line,#line2{
+        pointer-events:none;
+     }  
+     .button_down,.button_up{
+       
+        left: -360px;
+      }
+      .button_down_6,.button_up_6{
+       left: -160px;
+      }
+      .header__burger{       
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 325px;
+        top: 30px;      
+        z-index: 200;
+     } 
+     #About,#Contact{
+         display: none;
+     }
+     .header__burger{       
+        display: block;
+        position: absolute;
+        top: -30px;
+        left: 80%;      
+        }
+    #gif_2{
+        display: none;
+    }
+
+    .about__main{
+    position: absolute;
+    top: -150px;
+    left: -2%;
+    }
+
+.burger__button{
+    display: block; 
+    margin-top: 71px;
+    margin-left: 120px;  
+    position: absolute;
+    z-index: 2200;
+}
+#About_mobile,#Contact_mobile,#back_Home_mobile{
+    display: flex;         
+    width:102%;
+    height: 139px;
+    margin-left:370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background-color:#3D34D2;
+    color:#FFFFFF;
+    }  
+    #About_mobile{     
+    margin-top:139px;
+    }
+    #Contact_mobile{
+        margin-top: 278px;
+    }
+
+    #back_Home_mobile:hover{
+        background-color:#00C753;
+    }
+    #About_mobile:hover{
+        background: #FFBD00; 
+    }
+    #Contact_mobile:hover{
+        background: #FE0000;
+    }
+
+
+.header__burger{
+    width:50px;
+    width:50px;
+    z-index: 1000;
+}
+#clik,#clik_1,#clik_2,#clik_3{
+    margin-top: 50px;
+    margin-left: 80px;
+    right: 4%;
+}
+
+#clik_1,#clik_2,#clik_3{
+    visibility: hidden;   
+}
+.pade_2{   
+    z-index: -2000;
+}
+.about_me_p2{           
+    font-style: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 102.5%;
+    top: 100px; 
+    left:12px;     
+ }
+ .about_meIfo_p2{ 
+    
+    top: 263px;
+    font-size: 12px;
+    line-height: 18px;
+    left:460px; 
+    width: 400px; 
+   
+ }
+ #gif_4{
+    left:-80px; 
+     margin-top:100px;
+ }
+ #gif_3{
+    position: absolute;
+    width: 175px;
+    height: 177px;
+    left: 10px;          
+    top:70px;
+ }
+ #foto{
+    width: 175px;
+    height: 177px;
+    top:420px;
+    left:-370px;
+ }
+ .pade_3{
+    top:316px;
+    left: 20px;  
+    z-index: 2000;   
+}
+ #touch{
+    top:-210px;
+    left:-5px;
+ }
+ .cont_1,.cont_2,.cont_3,.cont_4{
+   top:-280px;
+   left:250px;
+ }
+ #roof,#mail,#phone,#linked,#twit{
+    width: 375px;
+}
+#contact_twiter{
+    top:510px;
+}
+#link_2{  
+   left:120px;
+}
+#link_3{
+    left:240px;
+}
+/* ///////////////////////////4///////////////////////// */
+.pade_buf_1,.pade_buf_2{ 
+    left: 30px;
+    z-index: -2000; 
+   
+  }
+  #large_project_text,#text_p4{
+    left: 30px;
+  }
+
+  #_001,#_001_bigProd{
+    margin-left: -290px;
+  }
+  .heading_5,.heading_6{
+    margin-left: -40px;
+   
+  }
+  .text_5,.text_6{
+    margin-left: -40px; 
+  }
+  .blioc{
+    left: 196px;
+  }
+  .blioc2{
+    left: 126px;
+  }
+  #mobileButton{
+    position:fixed; 
+   
+ }
+
+}
+
+@media (max-width: 411px){  
+    
+    #gif_1{
+        margin-top: 194px;
+        margin-left: -174px;
+        width: 424px;
+    }
+    #large__project{     
+        left: -130px;        
+        }
+     .page_5,.page_6{
+     
+         z-index: -100;
+     }
+  
+     #logo,#line,#line2{
+        pointer-events:none;
+     }    
+     .button_down,.button_up{
+       
+       margin-left: -60px;
+     }
+
+     .header__burger{       
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 325px;
+        top: 30px;      
+        z-index: 200;
+     } 
+     #About,#Contact{
+         display: none;
+     }
+
+     #Hi{
+        position: fixed;    
+        width: 355px;
+        
+        height: 70px;
+        left: 20px;
+        top: 150px;
+     
+        font-style: normal;
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 102.5%;
+
+        color: #333333;      
+    }
+    #About_me{
+        position: fixed;  
+width: 360px;
+height: 47px;
+left: 20px;
+top: 273px;
+
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 22px;
+
+color: #333333;
+}
+#small__project,#large__project{
+    position: absolute;
+    width: 158px;
+   
+    height: 59.25px;
+  
+    top: 375px;
+
+    border: 1px solid #333333;
+    box-sizing: border-box;
+    background-color:#FFFFFF; 
+    z-index: 200;
+  
+    }
+    #small__project{
+        left:5px;
+    }
+ 
+     #large__project{
+        position: fixed;  
+    position: relative;
+    width: 157px;
+    height: 58.88px;
+    /* left: -160px; */
+    margin-left: 340px;
+       
+    }
+    #gif_1{
+        /* position: absolute;
+        width: 377px;
+       
+        height: 377px;
+        left: 159px;
+        top: 291px; */
+        position: absolute;
+        width: 411px;
+       
+        height:auto;
+        left: 159px;
+        top: 391px;
+    }
+
+    .header__burger{       
+        display: block;
+        position: absolute;
+        top: -30px;
+        left: 80%;      
+        }
+    #gif_2{
+        display: none;
+    }
+    .about__main{
+    position: absolute;
+    top: -150px;
+    left: -2%;
+    }
+/* .................................................................................... */
+/* .burger__button{
+    display: block; 
+    margin-top: 50px;
+    margin-left: 40px;  
+    position: absolute;
+    z-index: 2200;
+} */
+#About_mobile,#Contact_mobile,#back_Home_mobile{
+    display: flex;         
+    width:102%;
+    height: 139px;
+    margin-left:370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    background-color:#3D34D2;
+    color:#FFFFFF;
+    }  
+    #About_mobile{     
+    margin-top:139px;
+    }
+    #Contact_mobile{
+        margin-top: 278px;
+    }
+
+    #back_Home_mobile:hover{
+        background-color:#00C753;
+    }
+    #About_mobile:hover{
+        background: #FFBD00; 
+    }
+    #Contact_mobile:hover{
+        background: #FE0000;
+    }
+
+
+.header__burger{
+    width:50px;
+    width:50px;
+    z-index: 1000;
+}
+/* #clik,#clik_1,#clik_2,#clik_3{
+    margin-top: 24px;
+    margin-left: 240px;
+    right: 4%;
+} */
+
+#clik_1,#clik_2,#clik_3{
+  
+    visibility: hidden;
+   
+}
+.about_me_p2{           
+    font-style: normal;
+    font-weight: 500;
+    font-size: 75px;
+    line-height: 102.5%;
+    top: 88px;      
+ }
+ .about_meIfo_p2{  
+    top: 263px;
+    font-size: 12px;
+    line-height: 18px; 
+    width: 370px; 
+ }
+ #foto{
+    top: 423px;
+     left: -367px;
+ }
+ .blioc{
+    left: 176px;
+  }
+}
+
+@media (max-width: 411px){
+    #gif_1{
+        position:fixed;     
+        margin-top: 110px;
+        margin-left: -158px;    
+        width: 411px;
+    }
+  
+}
+@media screen and (device-aspect-ratio: 411/731){
+    #gif_1{
+        margin-top: 178px;
+        width: 411px;
+    }
+}
+@media (max-width: 375px){
+  
+    #gif_1{
+        position: fixed;
+        margin-top: 127px;
+        width: 375px;    
+    }
+
+    #About_me{
+          width: 330px;
+            }
+            
+            #small__project,#large__project{
+                top:390px; 
+            }
+    #large__project{ 
+      
+        left: -160px;        
+        }
+        .about_me_p2{
+            position: absolute;
+            width: 345px;
+            height: 157px;
+            left: 13px;
+            top: 0px;
+            
+            font-style: normal;
+            font-weight: 500;
+            font-size: 75px;
+            line-height: 102.5%;
+             
+            color: #333333;
+         }
+         .about_meIfo_p2{             
+            width: 345px;
+            height: 248px;
+          
+            font-style: normal;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 20px;
+            color: #333333;
+         }
+         #foto{
+            position: absolute;
+            width: 143px;
+            height: 143px;
+            left: -375px;
+            top: 440px;
+            background: #333333;
+            z-index: 200;
+         }
+         #gif_3{
+            position: absolute;
+            width: 135px;
+            height: 137px;
+            left: 10px;          
+            top:70px;
+         }  
+         #gif_4{
+            top:20px;
+            left: -120px; 
+         }
+         .about_me_p2{           
+            font-style: normal;
+            font-weight: 500;
+            font-size: 75px;
+            line-height: 102.5%;
+            top: 15px;      
+         }
+         .about_meIfo_p2{  
+            top: 263px;
+            font-size: 12px;
+            line-height: 18px;  
+         }
+         .pade_buf_1,.pade_buf_2{ 
+            left: 15px;
+            z-index: -100;  
+          }
+          #roof,#mail,#phone,#linked,#twit{
+            width: 335px;
+        }
+        .blioc{
+            left: 140px;
+          }
+}
+@media screen and (device-aspect-ratio: 375/812) {
+    #gif_1{
+        margin-top: 272px;
+        width: 375px;
+      
+    } 
+    #gif_3{
+        width: 210px;     
+        height:210px;
+        margin-top: 450px;
+        left: -8px;
+    }
+}
+@media (max-width: 360px){
+    #Hi{
+        position: fixed;     
+        top:126px;
+        width: 360px;
+    }
+    #About_me{
+        top:266px;
+    }
+    #gif_1{
+        position: absolute;
+        margin-top: 110px;
+        margin-left: -175px;
+        width: 363px;
+    }
+    #foto{
+        top:428px;
+        position: absolute;
+        width: 130px;
+        height: 130px; 
+        left: -368px;    
+    }
+    #gif_3{
+        margin-top: 412px;
+        width: 150px;
+        height: 150px;
+        top:72px;
+       
+    }
+    .about_me_p2{
+      
+position: absolute;
+width: 345px;
+height: 157px;
+left: 15px;
+top: 0px;
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+line-height: 90.5%;
+
+color: #333333;
+     }
+     .about_meIfo_p2{
+        /* position: absolute; */
+        position: fixed;
+        height: 248px;
+        margin-left: -445px;
+        top: 243px;
+        width: 320px;
+
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 18px;
+        color: #333333;
+     }
+   
+  
+     #gif_4{      
+        top: 10px
+     }
+     .mosaic_mobile{
+         height: 90px;
+     }
+
+     #large__project{     
+        left: -168px;        
+        }
+        .pade_buf_1,.pade_buf_2{ 
+            left: -5px;
+            z-index: -100;  
+          }        
+          #touch{
+            top:-230px;
+            left:-5px;
+         }
+         #roof,#mail,#phone,#linked,#twit{
+             width: 325px;
+         }
+
+         .cont_1,.cont_2,.cont_3,.cont_4{
+           top:-299px;
+           left:250px;
+         }    
+            #mobileButton{
+                position: fixed;
+                left: -435px;
+            }
+            .blioc2{
+                left: 143px;
+              }
+}
+@media (max-width: 320px){
+    #gif_1{
+        top:410px;
+    }
+    #Hi{    
+        margin-top: -40px;   
+        font-size: 40px;         
+    }
+    #About_me{
+     top: 220px;
+     width: 290px;
+     position: absolute;
+     margin-left: -20px;
+     font-size: 13px;
+    }
+    #small__project,#large__project{
+        position: absolute;
+        width: 138px;     
+        height: 59.25px;            
+        top: 330px;            
+        }
+        #small__project{
+            left:0px;
+        }    
+         #large__project{
+        position:absolute;
+        position: relative;
+        width: 138px;
+        height: 58.88px;
+        left: -195px;              
+        }
+        #gif_1{
+            margin-top: 37px;
+            width: 320px;
+        }
+
+        .about_me_p2{      
+            font-size: 50px;       
+         }
+         .about_meIfo_p2{
+            position: absolute;
+            width: 300px;
+            height: 248px;
+            margin-left: -445px;
+            top: 125px;
+            width: 290px;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 20px;
+            color: #333333;
+         }
+         #foto{
+           display: none;
+         }
+         #gif_3{
+            display: none;
+         }
+         #gif_4{
+         
+         margin-left: -230px;
+         top: -20px;      
+         }
+         .mosaic_mobile{
+             display: none;
+         }
+         #roof, #mail,#phone,#linked,#twit{
+             width: 280px;
+         }
+         #line,#line2{
+             margin-left: -200px;
+         }
+        
+}
+
